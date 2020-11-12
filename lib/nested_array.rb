@@ -58,7 +58,7 @@ def matrix_update(matrix, row, column, new_value)
   column = 1
 
 
-matrix[1][1] = "new_value"
+matrix[row][column] = "new_value"
 return matrix
 
  end
